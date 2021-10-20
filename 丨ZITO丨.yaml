@@ -5,63 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: (已存活1天)美国-3.18MB/s, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (已存活1天)美国-2.84MB/s, server: 212.102.44.86, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
-  - {name: (已存活7天)印度-1.47MB/s, server: 45.79.127.97, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (已存活4天)加拿大-3.24MB/s, server: 134.195.196.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (已存活3天)西班牙-2.96MB/s, server: 172.107.233.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (已存活1天)英国-1.92MB/s, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (已存活7天)中国-7.51MB/s, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hkt01.hk.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: true, udp: true}
-  - {name: (已存活7天)加拿大-3.16MB/s, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (已存活1天)挪威-2.88MB/s, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (已存活2天)印度-2.90MB/s, server: 172.105.55.72, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (已存活9天)英国-2.81MB/s, server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (已存活3天)印度-2.70MB/s, server: 192.46.211.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (已存活1天)印度-2.55MB/s, server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: (已存活3天)加拿大-3.00MB/s, server: 134.195.198.178, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (已存活4天)印度-2.82MB/s, server: 172.105.55.72, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (已存活1天)法国-3.40MB/s, server: 185.166.84.81, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: (已存活1天)加拿大-1.86MB/s, server: 66.115.147.89, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: (已存活1天)印度-2.76MB/s, server: 172.105.63.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (已存活9天)中国-8.09MB/s, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: trojan, password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0, sni: hkt01.hk.zz.xxxxx.x-t-fuckword.network, skip-cert-verify: true, udp: true}
+  - {name: (已存活3天)西班牙-3.01MB/s, server: 172.107.233.234, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +100,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (已存活1天)美国-3.18MB/s
-      - (已存活1天)美国-2.84MB/s
-      - (已存活7天)印度-1.47MB/s
-      - (已存活4天)加拿大-3.24MB/s
-      - (已存活3天)西班牙-2.96MB/s
-      - (已存活1天)英国-1.92MB/s
-      - (已存活7天)中国-7.51MB/s
-      - (已存活7天)加拿大-3.16MB/s
-      - (已存活1天)挪威-2.88MB/s
-      - (已存活2天)印度-2.90MB/s
+      - (已存活9天)英国-2.81MB/s
+      - (已存活3天)印度-2.70MB/s
+      - (已存活1天)印度-2.55MB/s
+      - (已存活3天)加拿大-3.00MB/s
+      - (已存活4天)印度-2.82MB/s
+      - (已存活1天)法国-3.40MB/s
+      - (已存活1天)加拿大-1.86MB/s
+      - (已存活1天)印度-2.76MB/s
+      - (已存活9天)中国-8.09MB/s
+      - (已存活3天)西班牙-3.01MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10367,4 +10367,5 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
 
