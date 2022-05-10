@@ -5,211 +5,311 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _PL_波兰, server: 217.30.10.65, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: 新加坡B, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx, server: 140.207.232.42, port: 2007, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dd312, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx 3, server: 140.207.232.42, port: 3002, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dd312, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: aaa 449, server: gg04.nfeng6.pp.ua, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: TG频道:t.me/ruofengfx 2, server: 140.207.232.42, port: 2033, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /lloig, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: aaa 452, server: gg04.nfeng6.pp.ua, port: 63088, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: "[CT/CM]香港 02", server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx 3 2, server: 140.207.232.42, port: 53563, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2r3123y, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: aaa 495, server: gg04.nfeng6.pp.ua, port: 63004, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: "[CT/CM]香港 06 2", server: hzrelaycu.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx 5, server: 140.207.232.42, port: 2020, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2r3123y, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 2, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: _CN_中国_2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.46.228]}}, udp: true}
+  - {name: "[CT/CM]香港 07 2", server: shcu001online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "[CT/CM]香港 10 2", server: shcu001online.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: 香港动态 HKT B 2, server: csdynhkt.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx 4, server: 140.207.232.42, port: 53364, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2r3123y, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: "[CT/CM]香港 14", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: "[VIP][广港]香港5•HKT", server: gdcm3.relay.qchwnd.moe, port: 44609, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[CT/CM]香港 05", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx 2 2, server: 140.207.232.42, port: 19382, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /idr5, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: "[CT/CM]香港 11 2", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
+  - {name: TG频道:t.me/ruofengfx 10, server: 140.207.232.42, port: 15685, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dd312, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_1, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨深港中继1, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨沪港中继丨5, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v0丨免费丨看教程无人工, server: tt02.kuli888.xyz, port: 36368, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨原生丨04, server: hk06.kuli888.xyz, port: 12520, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: hk06.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v0丨免费 ooolooo.vip, server: tt01.kuli888.xyz, port: 35358, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx, server: 1.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: v1丨香港丨Trojan丨06, server: az06dcjhh.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: az06dcjhh.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 1, server: 1.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 12, server: 2.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: v1丨日本丨Trojan, server: riben.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: riben.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨05, server: az05feiy.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: az05feiy.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 2, server: 2.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: v1丨香港丨Trojan丨1丨落地, server: az01.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: az01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨原生丨, server: hk04.kuli888.xyz, port: 8080, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: hk04.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨02, server: hk07.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: hk07.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨沪港3, server: v1hugang3.kuli888.xyz, port: 11150, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1hugang3.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨Trojan丨03, server: v1az03.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1az03.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 6, server: 6.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港TG频道:t.me/ruofengfx 15, server: 5.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: v1丨台湾丨原生丨深台中转, server: v1tw01.kuli888.xyz, port: 52035, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1tw01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: v1丨美国丨Trojan, server: us.kuli888.xyz, port: 35256, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: us.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: aaa 4, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa 6, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa 44, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_1818 |32.01Mb, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
+  - {name: aaa 5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa 7, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 03 🇨🇦 UFO Toronto, server: 196.247.59.156, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BG_247 |216.62Mb, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: aaa 41, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 04 🇨🇦 UFO Toronto, server: 196.247.59.156, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JK1-V3-广新GIA01_v2ray_1_5x流量_22, server: jike-gzyd.jiserver.xyz, port: 29853, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: "%7B%22host%22:%22jike1-giasg02.jiserver.xyz%22%7D"}, udp: true}
+  - {name: aaa 227, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 梦歌|BGP中转|解锁流媒体_20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
   - {name: YouTube@阿阳AYANG 2, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: defaultName_170, server: gdcm-2.onescloud.top, port: 22020, type: ssr, cipher: rc4-md5, password: fNqa6f, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 27192:PlfAQi, obfs-param: 7cca427192.microsoft.com, udp: true}
-  - {name: defaultName_166, server: gdcm-2.onescloud.top, port: 22022, type: ssr, cipher: rc4-md5, password: fNqa6f, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 27192:PlfAQi, obfs-param: 7cca427192.microsoft.com, udp: true}
-  - {name: defaultName_167, server: gdcm-2.onescloud.top, port: 22026, type: ssr, cipher: rc4-md5, password: fNqa6f, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 27192:PlfAQi, obfs-param: 7cca427192.microsoft.com, udp: true}
   - {name: defaultName_160, server: ssr.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 英国（TGat阿伟科技/油管）7_19, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 14.29.124.168:25247, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "|20.89Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Ytb:鹏哥分享_英国_17, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: 14.29.124.168:25267, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 14.29.124.168:25271, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _JP_日本, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _BG_保加利亚 2, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 美国(ios小火箭软件|ioskaka.com) 2, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _BG_保加利亚, server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: US-高速节点购买：v1.mk/vip（浏览器打开） 18, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "| 5.42Mb", server: 150.230.60.59, port: 8888, type: vmess, uuid: 1eb7ee7c-975e-4e06-abc3-d5d3aed50229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb, server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 85a173a6-cbac-44b7-83b7-0c53d4aadf93, sni: 0001.hn.genzpn.com, skip-cert-verify: true, udp: true}
-  - {name: FR_648 |16.47Mb, server: 51.195.217.22, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb, server: 0001.hn.genzpn.com, port: 80, type: vmess, uuid: 85a173a6-cbac-44b7-83b7-0c53d4aadf93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 0001.hn.genzpn.com}, udp: true}
-  - {name: DE_87, server: 5.183.179.146, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: DE_88, server: 5.183.179.146, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: LT_196, server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
   - {name: CA_15, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|46.83Mb", server: 193.37.252.210, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: DE_96, server: 5.183.179.137, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: CA_19, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: RU_307, server: 217.30.10.67, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
   - {name: CA_16, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _GB_英国_36, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: CA_12, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: LT_936 |41.49Mb, server: 213.183.63.219, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: RU_1158 | 8.92Mb, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: CA_10, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: v2cross.com 68, server: 185.126.116.117, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: v2cross.com 245, server: 213.183.63.218, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: v2cross.com 64, server: 185.126.116.117, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
   - {name: v2cross.com, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
-  - {name: v2cross.com 250, server: 213.183.63.218, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: v2cross.com 136, server: 217.30.10.67, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: v2cross.com 212, server: 217.30.10.65, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: v2cross.com 293, server: 185.126.116.117, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: US-129.146.255.158-35, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: v2cross.com 67, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: v2cross.com 292, server: 185.126.116.117, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -228,215 +328,342 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - "[CT/CM]香港 02"
+      - "[CT/CM]香港 06 2"
+      - 台湾 2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - "[CT/CM]香港 11 2"
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v1丨香港丨Trojan丨原生丨04
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -452,53 +679,78 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _PL_波兰
+      - 新加坡B
+      - TG频道:t.me/ruofengfx
+      - 韩国高速接入A
+      - TG频道:t.me/ruofengfx 3
+      - aaa 449
+      - TG频道:t.me/ruofengfx 2
+      - aaa 452
+      - "[CT/CM]香港 02"
+      - TG频道:t.me/ruofengfx 3 2
+      - aaa 495
+      - "[CT/CM]香港 06 2"
+      - TG频道:t.me/ruofengfx 5
+      - 台湾 2
+      - _CN_中国_2
+      - "[CT/CM]香港 07 2"
+      - "[CT/CM]香港 10 2"
+      - 香港动态 HKT B 2
+      - TG频道:t.me/ruofengfx 4
+      - "[CT/CM]香港 14"
+      - "[VIP][广港]香港5•HKT"
+      - "[CT/CM]香港 05"
+      - TG频道:t.me/ruofengfx 2 2
+      - "[CT/CM]香港 11 2"
+      - TG频道:t.me/ruofengfx 10
+      - _CN_中国->🇺🇸_US_美国_1
+      - v1丨香港丨Trojan丨深港中继1
+      - v1丨香港丨Trojan丨沪港中继丨5
+      - v0丨免费丨看教程无人工
+      - v1丨香港丨Trojan丨原生丨04
+      - v0丨免费 ooolooo.vip
+      - 香港TG频道:t.me/ruofengfx
+      - v1丨香港丨Trojan丨06
+      - 香港TG频道:t.me/ruofengfx 1
+      - 香港TG频道:t.me/ruofengfx 12
+      - v1丨日本丨Trojan
+      - v1丨香港丨Trojan丨05
+      - 香港TG频道:t.me/ruofengfx 2
+      - v1丨香港丨Trojan丨1丨落地
+      - v1丨香港丨Trojan丨原生丨
+      - v1丨香港丨Trojan丨02
+      - v1丨香港丨Trojan丨沪港3
+      - v1丨香港丨Trojan丨03
+      - 香港TG频道:t.me/ruofengfx 6
+      - 香港TG频道:t.me/ruofengfx 15
+      - v1丨台湾丨原生丨深台中转
+      - v1丨美国丨Trojan
+      - aaa 4
+      - aaa 6
+      - aaa 44
+      - US_1818 |32.01Mb
+      - aaa 5
+      - aaa 7
+      - 03 🇨🇦 UFO Toronto
+      - BG_247 |216.62Mb
+      - aaa 41
+      - 04 🇨🇦 UFO Toronto
+      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
+      - aaa 227
       - 梦歌|BGP中转|解锁流媒体_20
       - YouTube@阿阳AYANG 2
-      - defaultName_170
-      - defaultName_166
-      - defaultName_167
       - defaultName_160
       - 英国（TGat阿伟科技/油管）7_19
       - 14.29.124.168:25247
       - "|20.89Mb"
-      - Ytb:鹏哥分享_英国_17
       - 14.29.124.168:25267
       - 14.29.124.168:25271
-      - _JP_日本
-      - _BG_保加利亚 2
-      - 美国(ios小火箭软件|ioskaka.com) 2
-      - _BG_保加利亚
-      - US-高速节点购买：v1.mk/vip（浏览器打开） 18
-      - "| 5.42Mb"
-      - Relay_🇻🇳VN-🇻🇳VN_1455 | 8.08Mb
-      - FR_648 |16.47Mb
-      - Relay_🇻🇳VN-🇻🇳VN_1454 |25.68Mb
-      - DE_87
-      - DE_88
-      - LT_196
       - CA_15
-      - "|46.83Mb"
-      - DE_96
-      - CA_19
-      - RU_307
       - CA_16
       - _GB_英国_36
       - CA_12
-      - LT_936 |41.49Mb
-      - RU_1158 | 8.92Mb
       - CA_10
-      - v2cross.com 68
-      - v2cross.com 245
-      - v2cross.com 64
       - v2cross.com
-      - v2cross.com 250
-      - v2cross.com 136
-      - v2cross.com 212
-      - v2cross.com 293
-      - US-129.146.255.158-35
-      - v2cross.com 67
-      - v2cross.com 292
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
