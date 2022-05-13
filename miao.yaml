@@ -5,227 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡B, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx, server: 140.207.232.42, port: 2007, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dd312, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx 3, server: 140.207.232.42, port: 3002, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dd312, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: aaa 449, server: gg04.nfeng6.pp.ua, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: TG频道:t.me/ruofengfx 2, server: 140.207.232.42, port: 2033, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /lloig, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: aaa 452, server: gg04.nfeng6.pp.ua, port: 63088, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: "[CT/CM]香港 02", server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx 3 2, server: 140.207.232.42, port: 53563, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2r3123y, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: aaa 495, server: gg04.nfeng6.pp.ua, port: 63004, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: "[CT/CM]香港 06 2", server: hzrelaycu.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx 5, server: 140.207.232.42, port: 2020, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2r3123y, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 台湾 2, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: _CN_中国_2, server: 43.154.46.228, port: 49930, type: vmess, uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.46.228]}}, udp: true}
-  - {name: "[CT/CM]香港 07 2", server: shcu001online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[CT/CM]香港 10 2", server: shcu001online.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: 香港动态 HKT B 2, server: csdynhkt.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx 4, server: 140.207.232.42, port: 53364, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2r3123y, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: "[CT/CM]香港 14", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: "[VIP][广港]香港5•HKT", server: gdcm3.relay.qchwnd.moe, port: 44609, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: gdcm3.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM]香港 05", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx 2 2, server: 140.207.232.42, port: 19382, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /idr5, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: "[CT/CM]香港 11 2", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 6166:LL00oooii8uu, obfs-param: telegram.channel.p2psharing, udp: true}
-  - {name: TG频道:t.me/ruofengfx 10, server: 140.207.232.42, port: 15685, type: vmess, uuid: 0535f9a9-ac4e-3c7d-970f-2a7edb8f963b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dd312, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_1, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨深港中继1, server: v1shengang.kuli888.xyz, port: 52016, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1shengang.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨沪港中继丨5, server: v1hugang5.kuli888.xyz, port: 10028, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1hugang5.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v0丨免费丨看教程无人工, server: tt02.kuli888.xyz, port: 36368, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt02.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨原生丨04, server: hk06.kuli888.xyz, port: 12520, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: hk06.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v0丨免费 ooolooo.vip, server: tt01.kuli888.xyz, port: 35358, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港TG频道:t.me/ruofengfx, server: 1.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: v1丨香港丨Trojan丨06, server: az06dcjhh.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: az06dcjhh.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港TG频道:t.me/ruofengfx 1, server: 1.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港TG频道:t.me/ruofengfx 12, server: 2.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: v1丨日本丨Trojan, server: riben.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: riben.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨05, server: az05feiy.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: az05feiy.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港TG频道:t.me/ruofengfx 2, server: 2.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: v1丨香港丨Trojan丨1丨落地, server: az01.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: az01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨原生丨, server: hk04.kuli888.xyz, port: 8080, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: hk04.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨02, server: hk07.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: hk07.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨沪港3, server: v1hugang3.kuli888.xyz, port: 11150, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1hugang3.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨Trojan丨03, server: v1az03.kuli888.xyz, port: 443, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1az03.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港TG频道:t.me/ruofengfx 6, server: 6.vip341.xyz, port: 443, type: vmess, uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 香港TG频道:t.me/ruofengfx 15, server: 5.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: v1丨台湾丨原生丨深台中转, server: v1tw01.kuli888.xyz, port: 52035, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: v1tw01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_14, server: gg04.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
   - {name: 梦歌|BGP中转|解锁流媒体_20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: defaultName_160, server: ssr.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 14.29.124.168:25247, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|20.89Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25267, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25271, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: YouTube梦歌|Netflix_17, server: gg03.nfeng6.pp.ua, port: 63086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: freedom, server: freedom.number999.design, port: 443, type: trojan, password: ebfcb728-442f-418c-a42c-3819c3f14851, sni: freedom.number999.design, skip-cert-verify: true, udp: true}
+  - {name: 15021, server: 1502.number999.design, port: 443, type: trojan, password: 55d2025c-de39-4b17-84db-b9667486e734, sni: 1502.number999.design, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_73, server: gg04.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: aaa 413, server: gg02.nfeng6.pp.ua, port: 63086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_88, server: gg05.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_74, server: gg02.nfeng6.pp.ua, port: 63078, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_162, server: gg02.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_84, server: gg02.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_15, server: 47.241.222.60, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
+  - {name: YouTube梦歌|Netflix_171, server: gg03.nfeng6.pp.ua, port: 63078, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: SG_7896 TG@peekfun, server: 13.250.42.147, port: 30541, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: 13.250.42.147}, udp: true}
+  - {name: YouTube梦歌|Netflix_59, server: gg05.nfeng6.pp.ua, port: 63086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_61, server: gg02.nfeng6.pp.ua, port: 63051, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_205, server: gg03.nfeng6.pp.ua, port: 63004, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_37, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: YouTube梦歌|Netflix_13, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_5, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_97, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_114, server: gg05.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_73 2, server: 183.240.124.200, port: 44819, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_92, server: gg04.nfeng6.pp.ua, port: 63051, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: YouTube梦歌|Netflix_67, server: 183.240.124.200, port: 44816, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: YouTube梦歌|Netflix_62, server: 183.240.124.200, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
+  - {name: v0丨免费丨看教程无人工, server: tt02.kuli888.xyz, port: 36368, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt02.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_139, server: gg03.nfeng6.pp.ua, port: 63051, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: v0丨免费 ooolooo.vip, server: tt01.kuli888.xyz, port: 35358, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt01.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: uk.v2-ray.com, server: uk.v2-ray.com, port: 443, type: vmess, uuid: 36e527bb-cb10-4e4e-8dc9-4f277374661c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/bgnhc/6278ea93a7636/, ws-headers: {Host: walmart.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,258 +160,147 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[CT/CM]香港 02"
-      - "[CT/CM]香港 06 2"
-      - 台湾 2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 11 2"
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v1丨香港丨Trojan丨原生丨04
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -511,57 +316,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡B
-      - TG频道:t.me/ruofengfx
-      - 韩国高速接入A
-      - TG频道:t.me/ruofengfx 3
-      - aaa 449
-      - TG频道:t.me/ruofengfx 2
-      - aaa 452
-      - "[CT/CM]香港 02"
-      - TG频道:t.me/ruofengfx 3 2
-      - aaa 495
-      - "[CT/CM]香港 06 2"
-      - TG频道:t.me/ruofengfx 5
-      - 台湾 2
-      - _CN_中国_2
-      - "[CT/CM]香港 07 2"
-      - "[CT/CM]香港 10 2"
-      - 香港动态 HKT B 2
-      - TG频道:t.me/ruofengfx 4
-      - "[CT/CM]香港 14"
-      - "[VIP][广港]香港5•HKT"
-      - "[CT/CM]香港 05"
-      - TG频道:t.me/ruofengfx 2 2
-      - "[CT/CM]香港 11 2"
-      - TG频道:t.me/ruofengfx 10
-      - _CN_中国->🇺🇸_US_美国_1
-      - v1丨香港丨Trojan丨深港中继1
-      - v1丨香港丨Trojan丨沪港中继丨5
-      - v0丨免费丨看教程无人工
-      - v1丨香港丨Trojan丨原生丨04
-      - v0丨免费 ooolooo.vip
-      - 香港TG频道:t.me/ruofengfx
-      - v1丨香港丨Trojan丨06
-      - 香港TG频道:t.me/ruofengfx 1
-      - 香港TG频道:t.me/ruofengfx 12
-      - v1丨日本丨Trojan
-      - v1丨香港丨Trojan丨05
-      - 香港TG频道:t.me/ruofengfx 2
-      - v1丨香港丨Trojan丨1丨落地
-      - v1丨香港丨Trojan丨原生丨
-      - v1丨香港丨Trojan丨02
-      - v1丨香港丨Trojan丨沪港3
-      - v1丨香港丨Trojan丨03
-      - 香港TG频道:t.me/ruofengfx 6
-      - 香港TG频道:t.me/ruofengfx 15
-      - v1丨台湾丨原生丨深台中转
+      - YouTube梦歌|Netflix_14
       - 梦歌|BGP中转|解锁流媒体_20
-      - defaultName_160
-      - 14.29.124.168:25247
-      - "|20.89Mb"
-      - 14.29.124.168:25267
-      - 14.29.124.168:25271
+      - YouTube梦歌|Netflix_17
+      - freedom
+      - 15021
+      - YouTube梦歌|Netflix_73
+      - aaa 413
+      - YouTube梦歌|Netflix_88
+      - YouTube梦歌|Netflix_74
+      - YouTube梦歌|Netflix_162
+      - YouTube梦歌|Netflix_84
+      - YouTube梦歌|Netflix_15
+      - YouTube梦歌|Netflix_171
+      - SG_7896 TG@peekfun
+      - YouTube梦歌|Netflix_59
+      - YouTube梦歌|Netflix_61
+      - YouTube梦歌|Netflix_205
+      - YouTube梦歌|Netflix_37
+      - YouTube梦歌|Netflix_13
+      - YouTube梦歌|Netflix_5
+      - YouTube梦歌|Netflix_97
+      - YouTube梦歌|Netflix_114
+      - YouTube梦歌|Netflix_73 2
+      - YouTube梦歌|Netflix_92
+      - YouTube梦歌|Netflix_67
+      - YouTube梦歌|Netflix_62
+      - v0丨免费丨看教程无人工
+      - YouTube梦歌|Netflix_139
+      - v0丨免费 ooolooo.vip
+      - uk.v2-ray.com
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
