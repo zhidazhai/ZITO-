@@ -5,263 +5,175 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube梦歌|Netflix_14, server: gg04.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: 梦歌|BGP中转|解锁流媒体_20, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: YouTube梦歌|Netflix_17, server: gg03.nfeng6.pp.ua, port: 63086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: freedom, server: freedom.number999.design, port: 443, type: trojan, password: ebfcb728-442f-418c-a42c-3819c3f14851, sni: freedom.number999.design, skip-cert-verify: true, udp: true}
   - {name: 15021, server: 1502.number999.design, port: 443, type: trojan, password: 55d2025c-de39-4b17-84db-b9667486e734, sni: 1502.number999.design, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_73, server: gg04.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: aaa 413, server: gg02.nfeng6.pp.ua, port: 63086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_88, server: gg05.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_74, server: gg02.nfeng6.pp.ua, port: 63078, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_162, server: gg02.nfeng6.pp.ua, port: 63088, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_84, server: gg02.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_15, server: 47.241.222.60, port: 443, type: vmess, uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /free, ws-headers: {Host: jp.sayuri.cf}, udp: true}
-  - {name: YouTube梦歌|Netflix_171, server: gg03.nfeng6.pp.ua, port: 63078, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: SG_7896 TG@peekfun, server: 13.250.42.147, port: 30541, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: 13.250.42.147}, udp: true}
-  - {name: YouTube梦歌|Netflix_59, server: gg05.nfeng6.pp.ua, port: 63086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_61, server: gg02.nfeng6.pp.ua, port: 63051, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_205, server: gg03.nfeng6.pp.ua, port: 63004, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_37, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: YouTube梦歌|Netflix_13, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_5, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_97, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 508c98e6-aa9b-4afc-b97a-3151fe5860dd, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_114, server: gg05.nfeng6.pp.ua, port: 63069, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_73 2, server: 183.240.124.200, port: 44819, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: YouTube梦歌|Netflix_92, server: gg04.nfeng6.pp.ua, port: 63051, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: YouTube梦歌|Netflix_67, server: 183.240.124.200, port: 44816, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: YouTube梦歌|Netflix_62, server: 183.240.124.200, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: v0丨免费丨看教程无人工, server: tt02.kuli888.xyz, port: 36368, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt02.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_139, server: gg03.nfeng6.pp.ua, port: 63051, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
-  - {name: v0丨免费 ooolooo.vip, server: tt01.kuli888.xyz, port: 35358, type: trojan, password: 2c1e493d-d84d-3190-92eb-37428ca3324e, sni: tt01.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: uk.v2-ray.com, server: uk.v2-ray.com, port: 443, type: vmess, uuid: 36e527bb-cb10-4e4e-8dc9-4f277374661c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/bgnhc/6278ea93a7636/, ws-headers: {Host: walmart.com}, udp: true}
-  - {name: YouTube梦歌|Netflix_83, server: 183.240.124.200, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: aaa+44, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+9, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ♥️YouTube梦歌♥️_120, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_31, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: freedom, server: freedom.number999.design, port: 443, type: trojan, password: ebfcb728-442f-418c-a42c-3819c3f14851, sni: freedom.number999.design, skip-cert-verify: true, udp: true}
+  - {name: CU丨日本+01+-+SS, server: ssjp01.wangyiyunniubi.com, port: 13022, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
+  - {name: "|11.65Mb\r", server: bb01.nfeng6.pp.ua, port: 16040, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: "|+4.65Mb", server: bb01.nfeng6.pp.ua, port: 26240, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: "|16.03Mb\r", server: bb01.nfeng6.pp.ua, port: 26220, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: "|+1.93Mb", server: bb01.nfeng6.pp.ua, port: 16030, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: aaa+41, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa+5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|16.27Mb\r", server: bb01.nfeng6.pp.ua, port: 16020, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
   - {name: 临时节点_34, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: ♥️YouTube梦歌♥️_85, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+13, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: aaa+42, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 临时节点_37, server: 14.29.124.168, port: 25200, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 临时节点_26, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ♥️YouTube梦歌♥️_85 2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_36, server: 14.29.124.168, port: 25228, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 临时节点_44, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_305
+, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa+44, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: aaa+14, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+41, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: ♥️YouTube梦歌♥️_120, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_307
+, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: aaa+10, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+55, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_318
+, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_309
+, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: aaa+13, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: ♥️YouTube梦歌♥️_106, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_43, server: 14.29.124.168, port: 25288, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_41, server: 14.29.124.168, port: 25255, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 临时节点_35, server: 14.29.124.168, port: 25281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+15, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+16, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: nl.v2-ray.com, server: nl.v2-ray.com, port: 443, type: vmess, uuid: bffe4583-651a-4295-8fb2-a7254481bd5f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/czvd/6274f96f55c03/, ws-headers: {Host: walmart.com}, udp: true}
-  - {name: nl.v2-ray.com 2, server: nl.v2-ray.com, port: 443, type: vmess, uuid: 6c5ee5f6-866a-4600-a154-63c853a13085, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/sgsv/6274f70ca73b7/, ws-headers: {Host: walmart.com}, udp: true}
-  - {name: nl.v2-ray.com 3, server: nl.v2-ray.com, port: 443, type: vmess, uuid: 646fbf0b-494f-4d2a-b501-6672cd7ebc24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/linkssdtrg/627701b2759b3/, ws-headers: {Host: plex.tv}, udp: true}
-  - {name: JK1-V3-广新GIA01_v2ray_1_5x流量_22, server: jike-gzyd.jiserver.xyz, port: 29853, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: "%7B%22host%22:%22jike1-giasg02.jiserver.xyz%22%7D"}, udp: true}
-  - {name: nl.v2-ray.com 4, server: nl.v2-ray.com, port: 443, type: vmess, uuid: 646fbf0b-494f-4d2a-b501-6672cd7ebc24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/bxfbfs/6278e7d764350/, ws-headers: {Host: walmart.com}, udp: true}
+  - {name: ♥️YouTube梦歌♥️_85+2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 临时节点_41, server: 14.29.124.168, port: 25255, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 临时节点_31, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 临时节点_43, server: 14.29.124.168, port: 25288, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 临时节点_36, server: 14.29.124.168, port: 25228, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|12.76Mb\r", server: bb01.nfeng6.pp.ua, port: 16000, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: HK-Openit.ml, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.72.145]}}, udp: true}
+  - {name: "|+7.90Mb", server: bb01.nfeng6.pp.ua, port: 26230, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -280,66 +192,43 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -350,197 +239,128 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -556,66 +376,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|Netflix_14
-      - 梦歌|BGP中转|解锁流媒体_20
-      - YouTube梦歌|Netflix_17
-      - freedom
       - 15021
-      - YouTube梦歌|Netflix_73
-      - aaa 413
-      - YouTube梦歌|Netflix_88
-      - YouTube梦歌|Netflix_74
-      - YouTube梦歌|Netflix_162
-      - YouTube梦歌|Netflix_84
-      - YouTube梦歌|Netflix_15
-      - YouTube梦歌|Netflix_171
-      - SG_7896 TG@peekfun
-      - YouTube梦歌|Netflix_59
-      - YouTube梦歌|Netflix_61
-      - YouTube梦歌|Netflix_205
-      - YouTube梦歌|Netflix_37
-      - YouTube梦歌|Netflix_13
-      - YouTube梦歌|Netflix_5
-      - YouTube梦歌|Netflix_97
-      - YouTube梦歌|Netflix_114
-      - YouTube梦歌|Netflix_73 2
-      - YouTube梦歌|Netflix_92
-      - YouTube梦歌|Netflix_67
-      - YouTube梦歌|Netflix_62
-      - v0丨免费丨看教程无人工
-      - YouTube梦歌|Netflix_139
-      - v0丨免费 ooolooo.vip
-      - uk.v2-ray.com
-      - YouTube梦歌|Netflix_83
-      - aaa+44
-      - aaa+9
-      - ♥️YouTube梦歌♥️_120
-      - 临时节点_31
+      - freedom
+      - CU丨日本+01+-+SS
+      - "|11.65Mb\r"
+      - "|+4.65Mb"
+      - "|16.03Mb\r"
+      - "|+1.93Mb"
+      - aaa+41
+      - aaa+5
+      - "|16.27Mb\r"
       - 临时节点_34
       - ♥️YouTube梦歌♥️_85
-      - aaa+13
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - ♥️YouTube梦歌♥️_85 2
-      - 临时节点_36
       - 临时节点_44
+      - CN_305
+      - aaa+44
       - aaa+14
-      - aaa+41
+      - ♥️YouTube梦歌♥️_120
+      - CN_307
       - aaa+10
-      - aaa+55
-      - aaa+5
+      - CN_318
+      - CN_309
+      - aaa+13
+      - 14.29.124.168:25259
       - ♥️YouTube梦歌♥️_106
-      - 临时节点_43
-      - 临时节点_41
       - 临时节点_35
-      - aaa+15
-      - aaa+16
-      - nl.v2-ray.com
-      - nl.v2-ray.com 2
-      - nl.v2-ray.com 3
-      - JK1-V3-广新GIA01_v2ray_1_5x流量_22
-      - nl.v2-ray.com 4
+      - ♥️YouTube梦歌♥️_85+2
+      - 临时节点_41
+      - 临时节点_31
+      - 临时节点_43
+      - 临时节点_36
+      - 14.29.124.168:25294
+      - "|12.76Mb\r"
+      - HK-Openit.ml
+      - "|+7.90Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
