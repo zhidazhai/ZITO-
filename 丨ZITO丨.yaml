@@ -5,175 +5,136 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 15021, server: 1502.number999.design, port: 443, type: trojan, password: 55d2025c-de39-4b17-84db-b9667486e734, sni: 1502.number999.design, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang.com, server: ah.by55k1.xyz, port: 22074, type: trojan, password: 14ae3686-17cf-4658-b7e4-cb6c26b9aa17, sni: ah.by55k1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 翻墙党fanqiangdang.com 2, server: ah.by55k1.xyz, port: 15241, type: trojan, password: 14ae3686-17cf-4658-b7e4-cb6c26b9aa17, sni: ah.by55k1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 567-125.94.37.107-CN, server: 125.94.37.107, port: 54848, type: vmess, uuid: dfb02c26-3b48-4bbc-9ec3-3a6b9dc9d870, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: freedom, server: freedom.number999.design, port: 443, type: trojan, password: ebfcb728-442f-418c-a42c-3819c3f14851, sni: freedom.number999.design, skip-cert-verify: true, udp: true}
-  - {name: CU丨日本+01+-+SS, server: ssjp01.wangyiyunniubi.com, port: 13022, type: ss, cipher: aes-128-gcm, password: 7a1b49db-6688-4251-bf1a-72d62db2dc7e, udp: true}
-  - {name: "|11.65Mb\r", server: bb01.nfeng6.pp.ua, port: 16040, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: "|+4.65Mb", server: bb01.nfeng6.pp.ua, port: 26240, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: "|16.03Mb\r", server: bb01.nfeng6.pp.ua, port: 26220, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: "|+1.93Mb", server: bb01.nfeng6.pp.ua, port: 16030, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: aaa+41, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 576-125.94.37.107-CN, server: 125.94.37.107, port: 50603, type: vmess, uuid: dfb02c26-3b48-4bbc-9ec3-3a6b9dc9d870, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 572-125.94.37.107-CN, server: 125.94.37.107, port: 28020, type: vmess, uuid: dfb02c26-3b48-4bbc-9ec3-3a6b9dc9d870, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 15021, server: 1502.number999.design, port: 443, type: trojan, password: 55d2025c-de39-4b17-84db-b9667486e734, sni: 1502.number999.design, skip-cert-verify: true, udp: true}
+  - {name: 570-36.156.219.92-CN, server: shbgp.gia.wiki, port: 31356, type: vmess, uuid: dfb02c26-3b48-4bbc-9ec3-3a6b9dc9d870, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_450, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 8c8578b9-3d56-425d-8bcc-880c4da3600a, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 589-20.196.217.207-KR, server: 20.196.217.207, port: 80, type: vmess, uuid: 4a0d44fe-f552-41a6-935a-3a80237d40e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: 474-183.232.239.125-CN, server: gzbgp.gia.wiki, port: 30481, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 615-211.91.243.131-CN, server: 211.91.243.131, port: 38267, type: ss, cipher: aes-256-gcm, password: fc10d769-ef2c-4221-98e3-65e2a4784689, udp: true}
+  - {name: 475-183.232.239.125-CN, server: gzbgp.gia.wiki, port: 30412, type: vmess, uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 520-116.162.9.27-CN, server: zh01lv5ca04.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: be9a0961-b894-4dab-945c-f9694e904d97, udp: true}
+  - {name: 585-18.138.255.0-SG, server: 18.138.255.0, port: 80, type: vmess, uuid: 4a0d44fe-f552-41a6-935a-3a80237d40e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: aaa+13, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: aaa+5, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|16.27Mb\r", server: bb01.nfeng6.pp.ua, port: 16020, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: 临时节点_34, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: ♥️YouTube梦歌♥️_85, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 临时节点_41, server: 14.29.124.168, port: 25255, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 临时节点_31, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: aaa+42, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 临时节点_37, server: 14.29.124.168, port: 25200, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 临时节点_26, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_44, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_305
-, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+44, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+14, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ♥️YouTube梦歌♥️_120, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_307
-, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: aaa+10, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_318
-, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_309
-, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: aaa+13, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25259, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ♥️YouTube梦歌♥️_106, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_35, server: 14.29.124.168, port: 25281, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: ♥️YouTube梦歌♥️_85+2, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_41, server: 14.29.124.168, port: 25255, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_31, server: 14.29.124.168, port: 25213, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_43, server: 14.29.124.168, port: 25288, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 临时节点_36, server: 14.29.124.168, port: 25228, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 14.29.124.168:25294, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|12.76Mb\r", server: bb01.nfeng6.pp.ua, port: 16000, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
-  - {name: HK-Openit.ml, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.72.145]}}, udp: true}
-  - {name: "|+7.90Mb", server: bb01.nfeng6.pp.ua, port: 26230, type: ss, cipher: aes-128-gcm, password: bzUdYJ4JzjGfIwhG, udp: true}
+  - {name: 578-175.178.163.153-CN, server: 175.178.163.153, port: 443, type: vmess, uuid: 5bb4d785-4933-44cb-a162-d9a74625d2ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 549-70.34.245.126-US, server: 70.34.245.126, port: 443, type: vmess, uuid: 82d6a198-4280-45a9-be0f-5c35e2efda9f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /soda, ws-headers: {Host: 70.34.245.126}, udp: true}
+  - {name: Relay_🇯🇵JP-🇬🇧GB_583
+, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: CN_318, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,43 +153,34 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -239,128 +191,101 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -376,43 +301,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 15021
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com 2
+      - 567-125.94.37.107-CN
       - freedom
-      - CU丨日本+01+-+SS
-      - "|11.65Mb\r"
-      - "|+4.65Mb"
-      - "|16.03Mb\r"
-      - "|+1.93Mb"
-      - aaa+41
+      - 576-125.94.37.107-CN
+      - 572-125.94.37.107-CN
+      - 15021
+      - 570-36.156.219.92-CN
+      - Relay_🇨🇳CN-🇺🇸US_450
+      - 589-20.196.217.207-KR
+      - 474-183.232.239.125-CN
+      - 615-211.91.243.131-CN
+      - 475-183.232.239.125-CN
+      - 520-116.162.9.27-CN
+      - 585-18.138.255.0-SG
+      - aaa+13
       - aaa+5
-      - "|16.27Mb\r"
-      - 临时节点_34
       - ♥️YouTube梦歌♥️_85
+      - 临时节点_41
+      - 临时节点_31
       - aaa+42
       - 临时节点_37
       - 临时节点_26
-      - 临时节点_44
-      - CN_305
-      - aaa+44
-      - aaa+14
-      - ♥️YouTube梦歌♥️_120
-      - CN_307
       - aaa+10
+      - 578-175.178.163.153-CN
+      - 549-70.34.245.126-US
+      - Relay_🇯🇵JP-🇬🇧GB_583
       - CN_318
-      - CN_309
-      - aaa+13
-      - 14.29.124.168:25259
-      - ♥️YouTube梦歌♥️_106
-      - 临时节点_35
-      - ♥️YouTube梦歌♥️_85+2
-      - 临时节点_41
-      - 临时节点_31
-      - 临时节点_43
-      - 临时节点_36
-      - 14.29.124.168:25294
-      - "|12.76Mb\r"
-      - HK-Openit.ml
-      - "|+7.90Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
