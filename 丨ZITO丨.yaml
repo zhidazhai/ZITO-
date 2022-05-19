@@ -31,8 +31,7 @@ proxies:
   - {name: aaa+10, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 578-175.178.163.153-CN, server: 175.178.163.153, port: 443, type: vmess, uuid: 5bb4d785-4933-44cb-a162-d9a74625d2ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
   - {name: 549-70.34.245.126-US, server: 70.34.245.126, port: 443, type: vmess, uuid: 82d6a198-4280-45a9-be0f-5c35e2efda9f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /soda, ws-headers: {Host: 70.34.245.126}, udp: true}
-  - {name: Relay_🇯🇵JP-🇬🇧GB_583
-, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇬🇧GB_583, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
   - {name: CN_318, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
