@@ -6,7 +6,10 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 华北, server: s3.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-Moscow, server: 91.243.82.187, port: 20003, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-Vienna, server: 91.243.82.187, port: 20005, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 华中, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: 91.243.82.187, port: 20002, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -14,14 +17,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -29,7 +38,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -49,7 +61,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -61,14 +76,20 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -76,7 +97,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,7 +117,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 华北
+      - GetAFreeNode-Moscow
+      - GetAFreeNode-Vienna
       - 华中
+      - GetAFreeNode-Frankfurt
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
