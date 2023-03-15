@@ -5,135 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US 1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de1.scproxy.top}, udp: true}
-  - {name: JP 5, server: jp7.lianpi.xyz, port: 53638, type: trojan, password: 5d651d8c-d5b3-418b-a3ea-55171af5b726, sni: jp7.lianpi.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR 10, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /huhublog, ws-headers: {Host: zhuyong.hucloud-dns.xyz}, udp: true}
-  - {name: HK 23, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: e7d09c21-31af-4c4b-b9db-ad60d7497a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: hk80.af49c4e4c2ef.sanfen001.pics}, udp: true}
-  - {name: HK 33, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 1f1136af-9479-4851-aa8b-6ae7e6a4bd33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: SG 41, server: sg5.lianpi.xyz, port: 54126, type: vmess, uuid: a33fcd7c-daa6-44f3-8de0-be74e17f0d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK 44, server: 8.218.182.129, port: 27191, type: vmess, uuid: a7be7873-3f6f-4aec-a24d-dba051e3283a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.182.129]}}, udp: true}
-  - {name: US 76, server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, skip-cert-verify: true, udp: true}
-  - {name: HK 86, server: 8.218.181.75, port: 57408, type: vmess, uuid: a93df277-c3a8-4948-abd1-663722cb32b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.181.75]}}, udp: true}
-  - {name: JP 88, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: HK 89, server: 8.218.168.163, port: 42675, type: vmess, uuid: 6f532e4c-1ea2-4e1d-a18a-af34c766ea02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.168.163]}}, udp: true}
-  - {name: HK 125, server: 8.218.183.217, port: 64098, type: vmess, uuid: 7243a003-b59a-4686-b460-950fdf61819b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.183.217]}}, udp: true}
-  - {name: HK 44 2, server: 8.218.182.129, port: 27191, type: vmess, uuid: a7be7873-3f6f-4aec-a24d-dba051e3283a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.182.129]}}, udp: true}
-  - {name: HK 86 2, server: 8.218.181.75, port: 57408, type: vmess, uuid: a93df277-c3a8-4948-abd1-663722cb32b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.181.75]}}, udp: true}
-  - {name: HK 89 2, server: 8.218.168.163, port: 42675, type: vmess, uuid: 6f532e4c-1ea2-4e1d-a18a-af34c766ea02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.168.163]}}, udp: true}
+  - {name: 中国-6.71MB/s(Youtube:不良林), server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: _CN, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本-1.94MB/s(Youtube:不良林), server: 15.152.86.184, port: 80, type: vmess, uuid: 1d4e85c7-f510-4a84-bb46-ebbaa0c53907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: asp.cntv.myalicdn.com}, udp: true}
+  - {name: 中国-1.66MB/s(Youtube:不良林), server: sa.steamdownload.top, port: 45742, type: trojan, password: a173def7-1369-499a-9b0d-fe9ef7deb258, sni: sa.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-2.15MB/s(Youtube:不良林), server: sa.steamdownload.top, port: 45743, type: trojan, password: a173def7-1369-499a-9b0d-fe9ef7deb258, sni: sa.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: 越南-1.99MB/s(Youtube:不良林), server: 0001.hn.genzpn.com, port: 443, type: trojan, password: 0ecaae2c-c757-40e2-975a-f5b56a86e140, sni: 0001.hn.genzpn.com, skip-cert-verify: true, udp: true}
+  - {name: _CN 2, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 未知国家-3.51MB/s(Youtube:不良林), server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: _US, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
+  - {name: 新加坡-1.82MB/s(Youtube:不良林), server: tw2.microsoftjs.top, port: 443, type: trojan, password: cba70996-88fd-4495-b1bc-ad12f1017546, sni: tw2.microsoftjs.top, skip-cert-verify: true, udp: true}
+  - {name: _CN 3, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-5.54MB/s(Youtube:不良林), server: d.pgypgykmoljklj.xyz, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mR17oBKzZ7, ws-headers: {Host: d.pgypgykmoljklj.xyz}, udp: true}
+  - {name: _US 2, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
   - {name: HK 112, server: 8.218.184.30, port: 25800, type: vmess, uuid: af6d7eb3-c0e5-4bd8-b650-5ffd299be97c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.184.30]}}, udp: true}
-  - {name: HK 125 2, server: 8.218.183.217, port: 64098, type: vmess, uuid: 7243a003-b59a-4686-b460-950fdf61819b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.183.217]}}, udp: true}
-  - {name: HK 1, server: 8.218.184.220, port: 52214, type: vmess, uuid: 3b776f57-8b04-498e-89d7-cb5c640eede8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.184.220]}}, udp: true}
-  - {name: HK 2, server: 8.218.178.58, port: 53207, type: vmess, uuid: 9930e472-959f-4649-aa19-09354073fabc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.178.58]}}, udp: true}
-  - {name: FR 20, server: 51.210.101.213, port: 443, type: vmess, uuid: 4e75e69b-eae0-4654-9aa6-0ce45deaa0b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1-vmess.greenssh.xyz}, udp: true}
-  - {name: US 21, server: us2.sanfen001.pics, port: 443, type: vmess, uuid: e7d09c21-31af-4c4b-b9db-ad60d7497a65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: us1.sanfen001.pics}, udp: true}
-  - {name: ES 42, server: 185.231.204.143, port: 80, type: vmess, uuid: 39895690-ba4b-4f26-b1d3-fb18a954dfee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 185.231.204.143}, udp: true}
-  - {name: JP 71, server: jp06-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: 71d27c13-4666-3f5a-9b00-d5459271bba9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp06-vm0.entry.srthdw.art}, udp: true}
-  - {name: HK 1 2, server: 8.218.184.220, port: 52214, type: vmess, uuid: 3b776f57-8b04-498e-89d7-cb5c640eede8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.218.184.220]}}, udp: true}
-  - {name: UN 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: JP 4, server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US 5, server: no.aries.ovh, port: 2052, type: vmess, uuid: 69899069-e222-4b02-9fbe-570338bd7e36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.cloudflare.quest}, udp: true}
-  - {name: US 16, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: 中国-355.0KB/s(Youtube:不良林), server: 120.241.255.196, port: 41687, type: trojan, password: 74341a38-c634-492e-9385-50eb01dd59e4, skip-cert-verify: true, udp: true}
+  - {name: HK 23, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: e7d09c21-31af-4c4b-b9db-ad60d7497a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: hk80.af49c4e4c2ef.sanfen001.pics}, udp: true}
+  - {name: _CN 4, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 伯利兹-580.2KB/s(Youtube:不良林), server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: clash1.ssr-free2.xyz}, udp: true}
+  - {name: _CN 5, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-588.4KB/s(Youtube:不良林), server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN 6, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-373.2KB/s(Youtube:不良林), server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN 7, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-371.3KB/s(Youtube:不良林), server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _US 3, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjc.buzz}, udp: true}
+  - {name: _CN 8, server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: 未知国家-1.89MB/s(Youtube:不良林), server: b.gguu.pp.ua, port: 443, type: vmess, uuid: e959bcfa-500d-419a-b71d-e7fa2bf63969, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /123, ws-headers: {Host: b.gguu.pp.ua}, udp: true}
+  - {name: 美国-309.5KB/s(Youtube:不良林), server: 172.67.219.5, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,34 +152,34 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -190,101 +190,101 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,34 +300,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US 1
-      - JP 5
-      - FR 10
-      - HK 23
-      - HK 33
-      - SG 41
-      - HK 44
-      - US 76
-      - HK 86
-      - JP 88
-      - HK 89
-      - HK 125
-      - HK 44 2
-      - HK 86 2
-      - HK 89 2
+      - 中国-6.71MB/s(Youtube:不良林)
+      - _CN
+      - 日本-1.94MB/s(Youtube:不良林)
+      - 中国-1.66MB/s(Youtube:不良林)
+      - 中国-2.15MB/s(Youtube:不良林)
+      - 越南-1.99MB/s(Youtube:不良林)
+      - _CN 2
+      - 未知国家-3.51MB/s(Youtube:不良林)
+      - _US
+      - 新加坡-1.82MB/s(Youtube:不良林)
+      - _CN 3
+      - 美国-5.54MB/s(Youtube:不良林)
+      - _US 2
       - HK 112
-      - HK 125 2
-      - HK 1
-      - HK 2
-      - FR 20
-      - US 21
-      - ES 42
-      - JP 71
-      - HK 1 2
-      - UN 2
-      - JP 4
-      - US 5
-      - US 16
+      - 中国-355.0KB/s(Youtube:不良林)
+      - HK 23
+      - _CN 4
+      - 伯利兹-580.2KB/s(Youtube:不良林)
+      - _CN 5
+      - 中国-588.4KB/s(Youtube:不良林)
+      - _CN 6
+      - 中国-373.2KB/s(Youtube:不良林)
+      - _CN 7
+      - 中国-371.3KB/s(Youtube:不良林)
+      - _US 3
+      - _CN 8
+      - 未知国家-1.89MB/s(Youtube:不良林)
+      - 美国-309.5KB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
